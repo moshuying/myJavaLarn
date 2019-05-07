@@ -9,7 +9,7 @@ public class LinkList0507 {
         int n=5;
         try{
             for (int i=0;i<n;i++){
-                linList.insert(i,new Integer(i+1));
+                linList.insert(i,input.nextInt());
             }
             linList.print();
             linList.delete(4);

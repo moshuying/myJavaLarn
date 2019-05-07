@@ -83,7 +83,7 @@ public class Node {
         public void print()throws Exception{
             System.out.println("单链表元素为:");
             for (int i=0;i<size;i++){
-                System.out.println(getData(i)+"\t");
+                System.out.print(getData(i)+"\t");
             }
         }
         public int size(){
