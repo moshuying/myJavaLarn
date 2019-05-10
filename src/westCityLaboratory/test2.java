@@ -9,7 +9,7 @@ public class test2 {
         int[] p=new int[65];
         String[] name=new String[65];
         for (int i=0;i<65;++i){
-            p[i]=i;
+            p[i] = i + 1;
         }
         loop=input.nextInt();
         int i=0;
@@ -22,12 +22,12 @@ public class test2 {
         char[] c=temp.toCharArray();
         int w=Integer.parseInt(c[0]+""),s=Integer.parseInt(c[2]+"");
         w=(w+loop-1)%loop;
-        --loop;
-        do {
+        while (true) {
             w=(w+s-1)%loop;
-            System.out.print(name[p[w]]+" ");
+            System.out.println(name[p[w]]);
             for (int j=w;j<loop-1;++j) p[j]=p[j+1];
             --loop;
-        }while (loop==0);
+            if (loop == 0) break;
+        }
     }
 }

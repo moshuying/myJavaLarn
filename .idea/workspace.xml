@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a44239-68e4-4225-88ef-02d1d3cd18bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/GPSDataHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/westCityLaboratory/test2.java" afterDir="false" />
+    <list default="true" id="04a44239-68e4-4225-88ef-02d1d3cd18bb" name="Default Changelist" comment="完善实验二">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/LinkList0507.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/LinkList0507.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/MathBlackHole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/MathBlackHole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/Node$LinList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/Node$LinList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJavaLarn/westCityLaboratory/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/westCityLaboratory/LinkList0507.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/westCityLaboratory/LinkList0507.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/westCityLaboratory/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/westCityLaboratory/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westCityLaboratory/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/westCityLaboratory/test2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AdditionOfPolynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="414">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="e#619#711#1" />
@@ -67,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/LinkList0507.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="506">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/experimentOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="805">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="e#344#345#0" expanded="true" />
@@ -92,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="276">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,15 +94,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="1242">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +118,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="墨抒颖" />
         <option value="moshuying &lt;1460083332@qq.com&gt;" />
       </list>
     </option>
@@ -165,8 +157,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
-    <option name="width" value="1202" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -350,7 +342,8 @@
       <workItem from="1557193105766" duration="10297000" />
       <workItem from="1557307464802" duration="10539000" />
       <workItem from="1557406534820" duration="3035000" />
-      <workItem from="1557448175059" duration="6594000" />
+      <workItem from="1557448175059" duration="7193000" />
+      <workItem from="1557485607168" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="单词长度">
       <created>1557320167214</created>
@@ -363,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72390000" />
+    <option name="totallyTimeSpent" value="77448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,10 +368,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="0" width="1202" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27758318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27680525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38331574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38331574" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4783527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +389,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32740587" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3273495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
@@ -414,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单词长度" />
-    <option name="LAST_COMMIT_MESSAGE" value="单词长度" />
+    <MESSAGE value="完善实验二" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善实验二" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -441,15 +434,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/westCityLaboratory/test2.java</url>
-          <line>21</line>
+          <line>23</line>
           <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/westCityLaboratory/test2.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,16 +527,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GPSDataHandling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AdditionOfPolynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="414">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#619#711#1" />
@@ -559,24 +539,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/GPSDataHandling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/LinkList0507.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="506">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -586,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/experimentOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="805">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="e#344#345#0" expanded="true" />
@@ -595,10 +567,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="276">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
