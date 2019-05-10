@@ -15,9 +15,11 @@ public class Node {
     }
     public void setElement(Object obj){
         data=obj;
+
     }
     public String toString(){
         return data.toString();
+
     }
 
     public interface List{
