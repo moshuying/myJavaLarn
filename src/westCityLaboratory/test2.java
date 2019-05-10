@@ -8,9 +8,11 @@ public class test2 {
         int loop;
         int[] p=new int[65];
         String[] name=new String[65];
+        //字符数组从1开始,数组也从1开始
         for (int i=0;i<65;++i){
             p[i] = i + 1;
         }
+        //输入部分开始
         loop=input.nextInt();
         int i=0;
         while (i<loop+1){
@@ -21,6 +23,7 @@ public class test2 {
         temp=input.nextLine();
         char[] c=temp.toCharArray();
         int w=Integer.parseInt(c[0]+""),s=Integer.parseInt(c[2]+"");
+        //输入部分结束,调整输出
         w=(w+loop-1)%loop;
         while (true) {
             w=(w+s-1)%loop;
