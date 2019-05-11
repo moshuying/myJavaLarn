@@ -37,7 +37,7 @@ class gather{
     }
 }
 
-public class experimentOne {
+public class test1{
     public static void main(String[] args) {
         gather La=new gather(50);
         gather Lb=new gather(50);

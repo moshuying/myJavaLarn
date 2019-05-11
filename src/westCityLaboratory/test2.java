@@ -33,4 +33,12 @@ public class test2 {
             if (loop == 0) break;
         }
     }
+    //约瑟夫环递归
+    private static int ysfdg(int sum,int value,int n){
+        if(n==1){
+            return (sum+value-1)%sum;
+        }else {
+            return (ysfdg(sum-1,value,n-1)+value)%sum;
+        }
+    }
 }

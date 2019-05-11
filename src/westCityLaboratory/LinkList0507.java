@@ -13,6 +13,8 @@ public class LinkList0507 {
             for (int i=0;i<n;i++){
                 linList.insert(i,r.nextInt(20));
             }
+            linList.print();
+            System.out.println();
             linList.insert(5,r.nextInt(30));
             linList.print();
             linList.delete(4);
