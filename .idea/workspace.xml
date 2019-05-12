@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a44239-68e4-4225-88ef-02d1d3cd18bb" name="Default Changelist" comment="完善实验二">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeCn/IntegerInversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeCn/unint32_t.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myJavaLarn/leetCodeCn/DecompositionPimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myJavaLarn/leetCodeCn/DecompositionPimeFactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeCn/DecompositionPimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeCn/DecompositionPimeFactor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +33,26 @@
     <favorites_list name="myJavaLarn" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeCn/IntegerInversion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeCn/unint32_t.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/leetCodeCn/DecompositionPimeFactor.java" />
         <option value="$PROJECT_DIR$/src/westCityLaboratory/test2.java" />
         <option value="$PROJECT_DIR$/src/leetCodeCn/IntegerInversion.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeCn/unint32_t.java" />
       </list>
     </option>
   </component>
@@ -93,9 +111,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="811" />
+    <option name="y" value="150" />
+    <option name="width" value="1114" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,7 +304,7 @@
       <workItem from="1557307464802" duration="10539000" />
       <workItem from="1557406534820" duration="3035000" />
       <workItem from="1557448175059" duration="7193000" />
-      <workItem from="1557485607168" duration="35500000" />
+      <workItem from="1557485607168" duration="40448000" />
     </task>
     <task id="LOCAL-00001" summary="单词长度">
       <created>1557320167214</created>
@@ -298,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108489000" />
+    <option name="totallyTimeSpent" value="113437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,9 +329,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="811" y="150" width="1114" height="756" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25054705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2504744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +341,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38648364" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59415585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47307286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/IntegerInversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCodeCn/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -611,6 +624,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/IntegerInversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/unint32_t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
