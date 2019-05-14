@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalsTriangle {
-    public List<List<Integer>> generate(int numRows){
+    public static void main(String[] args) {
+        System.out.println(generate(9));
+    }
+    public static List<List<Integer>> generate(int numRows){
         if(numRows==0)return  new ArrayList<>();
         List<List<Integer>> lst = new ArrayList<>();
         List<Integer> lst2 = new ArrayList<>();
@@ -14,7 +17,7 @@ public class PascalsTriangle {
         generate(lst,2,numRows);
         return lst;
     }
-    public void generate(List<List<Integer>> list,int n,int numRow){
+    public static void generate(List<List<Integer>> list,int n,int numRow){
         if(n==numRow+1)return;
         List<Integer> arr =new ArrayList<>();
         arr.add(1);
