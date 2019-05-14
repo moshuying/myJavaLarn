@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PascalsTriangle {
     public static void main(String[] args) {
-        System.out.println(generate(9));
+        System.out.println(generate(7));
     }
     public static List<List<Integer>> generate(int numRows){
         if(numRows==0)return  new ArrayList<>();
