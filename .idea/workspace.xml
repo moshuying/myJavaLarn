@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a44239-68e4-4225-88ef-02d1d3cd18bb" name="Default Changelist" comment="完善实验二">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeCn/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeCn/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,24 +59,28 @@
         <entry file="file://$PROJECT_DIR$/src/leetCodeCn/ValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeCn/GenerateParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetCodeCn/GenerateParentheses.java">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeCn/MergeTwoSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#253#261#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -201,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/leetCodeCn/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/leetCodeCn/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/leetCodeCn/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeCn/MergeTwoSortedLists.java" />
       </list>
     </option>
   </component>
@@ -211,10 +217,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1096" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,12 +258,6 @@
               <item name="myJavaLarn" type="b2602c69:ProjectViewProjectNode" />
               <item name="myJavaLarn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myJavaLarn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myJavaLarn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetCodeCn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,8 +277,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,7 +411,9 @@
       <workItem from="1557845572369" duration="328000" />
       <workItem from="1557988940489" duration="61000" />
       <workItem from="1558011869004" duration="6049000" />
-      <workItem from="1558080230835" duration="3263000" />
+      <workItem from="1558080230835" duration="4190000" />
+      <workItem from="1558103704064" duration="6000" />
+      <workItem from="1558173282678" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="单词长度">
       <created>1557320167214</created>
@@ -425,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151079000" />
+    <option name="totallyTimeSpent" value="153964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,10 +438,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="-8" width="976" height="1096" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32751092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34354487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,6 +841,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/westCityLaboratory/CXL0514.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -881,32 +896,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCodeCn/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="552">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#253#261#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeCn/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
