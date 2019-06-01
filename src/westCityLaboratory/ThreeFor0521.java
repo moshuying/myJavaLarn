@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class ThreeFor0521 {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
-        boolean inBool;         while (true){
+        boolean inBool;
+        while (true){
             String temp=input.nextLine();
             if (temp.equals("0")) break;
             String re=input.nextLine();
