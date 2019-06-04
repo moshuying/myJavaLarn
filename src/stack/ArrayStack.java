@@ -16,8 +16,9 @@ public class ArrayStack<E> implements ListStack<E>{
     private int maxSize=0;//栈大小
     private int top=-1;//栈顶指针
     private int bottom=-1;//栈底指针
+//    private Object[] data=null; int maxSize=0,top=-1,bottom=-1;
     ArrayStack(){
-        this(10);
+        this(100);
     }
     ArrayStack(int size){
         if(size>=0){
@@ -27,6 +28,9 @@ public class ArrayStack<E> implements ListStack<E>{
         }else {
             throw new RuntimeException("初始化大小不能小于0:"+size);
         }
+    }
+    public int length(){
+        return data.length;
     }
     //判断是否为空
     public boolean isEmpty(){
