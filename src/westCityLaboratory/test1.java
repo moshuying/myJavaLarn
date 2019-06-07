@@ -41,7 +41,6 @@ public class test1{
     public static void main(String[] args) {
         gather La=new gather(50);
         gather Lb=new gather(50);
-
     }
     public static void union(int[] A,int[] B){
         for (int i=0;i<B.length;i++){
