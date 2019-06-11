@@ -61,4 +61,11 @@ public class part1 {
             arr[i]=ran.nextInt(100);
         }
     }
+    //数组,最大值,数值范围
+    public static void insertNum(int[] arr,int max,int scope){
+        Random ran =new Random();
+        for (int i=0;i<scope;i++){
+            arr[i]=ran.nextInt(max);
+        }
+    }
 }

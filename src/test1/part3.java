@@ -45,12 +45,13 @@ public class part3 {
         Collections.sort(temp);
         return temp;
     }
-    private static void showList(LinkedList<Integer> arr){
+    public static void showList(LinkedList<Integer> arr){
         for (int val:arr){
             System.out.print(val+"\t");
         }
     }
-    private static void insertList(LinkedList<Integer> arr,int num,int max) {
+    //线性表,要插入的数值,最大值
+    public static void insertList(LinkedList<Integer> arr,int num,int max) {
         Random ran =new Random();
         for (int i=0;i<num;i++){
             arr.add(ran.nextInt(max));
