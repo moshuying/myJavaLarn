@@ -52,7 +52,7 @@ public class Node {
                 j++;
             }
         }
-        public void insert(int i,Object obj)throws Exception{
+public void insert(int i,Object obj)throws Exception{
             if(i<0||i>size){
                 throw new Exception("插入参数错误");
             }
